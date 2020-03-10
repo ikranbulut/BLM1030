@@ -12,7 +12,7 @@ int main ()
   scanf ("%d",&i);
   printf("Girdiginiz bilgileri onaylıyormusunuz E/H: ");
   scanf(" %c",&secenek);
-  printf("Bilgileri %c girerek kabul ettiniz\n", secenek);
+  printf("Bilgileri %c girerek onayladiniz\n", secenek);
   printf ("Sayin %s , %d yasinizdasiniz.\n",str,i);
   printf ("Bir hexadecimal sayi giriniz: ");
   scanf ("%x",&i);
