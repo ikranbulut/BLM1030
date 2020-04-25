@@ -2,12 +2,12 @@
 
 int bolunebiliyorMu(int, int);
 
-
 int main() {
     int birinciSayi, ikinciSayi;
     printf("İki sayinin kalansiz bolumunu hesaplayan program\n");
     printf("Lütfen Birinci Sayiyi Giriniz : ");
     scanf("%d", &birinciSayi);
+//ikinci sayıyiyi isteyelim 0 girilirse while ile bu kosulu sinayalim.
     do {
         printf("Lütfen ikinci Sayiyi Giriniz : ");
         scanf("%d", &ikinciSayi);
